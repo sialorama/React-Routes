@@ -1,5 +1,4 @@
-import { useState } from 'react'
-import './App.css'
+import './output.css'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Home from './pages/Home'
 import SignIn from './pages/SignIn'
@@ -24,9 +23,6 @@ function App() {
           <Route path='/About' element={<About />} />
 
       </Routes>
-      <div>
-          <h3 className="read-the-docs">Tout est Ok</h3>
-      </div>
     </BrowserRouter>
     
     
